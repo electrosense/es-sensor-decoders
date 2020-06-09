@@ -1,0 +1,5 @@
+LTE-Cell-Scanner/build/src/CellSearch /usr/share/electrosense/decoders/
+acarsdec/acarsdec.rtl /usr/share/electrosense/decoders/
+dump1090/dump1090 /usr/share/electrosense/decoders/
+rtl-ais_es/ais_decoder /usr/share/electrosense/decoders/
+python_decoders/* /usr/share/electrosense/decoders/

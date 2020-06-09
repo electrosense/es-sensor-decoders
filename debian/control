@@ -1,0 +1,14 @@
+Source: electrosense-decoders
+Section: unknown
+Priority: extra
+Maintainer: Héctor Cordobés <hector.cordobes@imdea.org>
+Build-Depends: debhelper (>= 9), librtlsdr-dev,libitpp-dev,libblas-dev,liblapack-dev,libfftw3-dev,libboost-dev,libboost-thread-dev,libboost-system-dev,libncurses5-dev,cmake
+Standards-Version: 3.9.5
+
+Package: electrosense-decoders
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1), ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, python-scipy
+Description: Decoders package for the sensor
+ This package include all the binaries and dependences for the decoders that
+ will be called from es_sensor.
